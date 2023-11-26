@@ -32,3 +32,6 @@ git branch
 
 #checkout to a branch 
 git checkout <branch name>
+
+#create a branch and checkout directly
+git checkout -b <branch name>
