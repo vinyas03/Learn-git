@@ -4,3 +4,7 @@ git add sum.py
 
 #Add all the files (modified files as well as newly created untracked files )
 #to the staging area
+
+
+#
+git checkout <commit hash code/branch name>
