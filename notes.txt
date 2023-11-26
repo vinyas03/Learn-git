@@ -35,3 +35,12 @@ git checkout <branch name>
 
 #create a branch and checkout directly
 git checkout -b <branch name>
+
+#merge two branches
+git merge <branch name>
+
+example:
+checkout to a new branch (ex: name/multiply) from dev branch
+then start working on name/multiply branch 
+now switch back to dev branch 
+and run git merge name/multiply
