@@ -1,1 +1,1 @@
-print(5*50)
+print("The product of 5 and 50 is :",5*50)
