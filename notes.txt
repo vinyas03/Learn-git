@@ -21,3 +21,8 @@ Aborting
 2. git checkout master (Switch to the master branch again)
 Previous HEAD position was 7c2831b added div.py
 Switched to branch 'master'
+
+
+
+#Branching
+git branch <branch name>
