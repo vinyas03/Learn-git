@@ -11,11 +11,13 @@ git checkout <commit hash code/branch name>
 
 examples:
 1. git checkout 7c2831b64d5baeac7ab0f7245dc77d697bf66428
-
+    (switch to some older commit)
 Possible errors :  Your local changes to the following files would be overwritten by checkout:
         notes.txt
 Please 'commit your changes or stash them before you switch branches'.
 Aborting
 
 
-2. git checkout master
+2. git checkout master (Switch to the master branch again)
+Previous HEAD position was 7c2831b added div.py
+Switched to branch 'master'
