@@ -26,3 +26,9 @@ Switched to branch 'master'
 
 #Branching
 git branch <branch name>
+
+#show all branches
+git branch
+
+#checkout to a branch 
+git checkout <branch name>
