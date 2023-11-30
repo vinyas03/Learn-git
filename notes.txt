@@ -44,3 +44,56 @@ checkout to a new branch (ex: name/multiply) from dev branch
 then start working on name/multiply branch 
 now switch back to dev branch 
 and run git merge name/multiply
+
+
+
+
+
+git remote add origin 'https://github.com/username/somerepo.git'
+#"git branch -M master" is used to rename the current branch to "master". 
+git branch -M master 
+gti push -u origin master
+
+
+
+
+
+
+
+If you want to push the dev branch to the github
+
+git push -u origin dev
+
+
+
+
+Collaboration  in one of the following 2 ways:
+1. People fork the repo, clone it to local machine, make changes , push it to your fork and finally create a pull request
+(fork-clone-commit-push-pull request)
+2. Add collaborators 
+Collaborators on a personal repository can pull (read) the contents of the repository and push (write) changes to the 
+repository. Note: In a private repository, repository owners can only grant write access to collaborators. 
+Collaborators can't have read-only access to repositories owned by a personal account.  
+The collaborator can make changes, add new features, fix bugs, or suggest improvements to the codebase. They will have the ability to push their changes directly to the repository, contributing to the project's development.
+As a repository owner, you can control the level of access and permissions granted to collaborators. You can specify whether they have read-only access, can contribute directly, or have administrative privileges.
+
+https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/permission-levels-for-a-personal-account-repository#:~:text=Collaborators%20on%20a%20personal%20repository,owned%20by%20a%20personal%20account.
+
+
+
+https://www.jetbrains.com/help/objc/sync-with-a-remote-repository.html#fetch
+
+
+https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository
+When you run git clone, the following actions occur:
+
+A new folder called repo is made
+It is initialized as a Git repository
+A remote named origin is created, pointing to the URL you cloned from
+All of the repository's files and commits are downloaded there
+The default branch is checked out
+
+
+Fetching changes from a remote repository
+Use git fetch to retrieve new work done by other people. Fetching from a repository grabs all the new remote-tracking 
+branches and tags without merging those changes into your own branches.
